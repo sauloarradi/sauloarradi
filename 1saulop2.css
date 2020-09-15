@@ -1,0 +1,573 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+div
+{
+    display: block;
+}
+
+.cabecalho
+{
+    
+    border-bottom: #72ab00 2px solid;
+    background-color: rgb(0, 0, 0);
+    height: 150px;
+    width: 140%;
+    
+}
+
+/*menu*/
+
+nav
+{
+    width: 80%;
+}
+
+#menu
+{
+    float: left;
+    margin-left: 15%;
+    margin-top: 24%;
+    text-align: left;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+#menu ul
+{
+    width: 90%;
+    margin: 1.9%;
+}
+
+#menu ul li
+{
+    display: inline;
+    list-style: none;
+    border-top: 1px solid rgba(154, 154, 154, 1);
+    padding: 2.2%;
+}
+
+#menu ul li a:hover
+{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    text-shadow: 2px 2px 3px #72ab00;
+}
+
+a 
+{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*fontes*/
+.font_0 
+{
+    position: absolute;
+    text-align: center;
+    line-height: 58%;
+    padding-top: 3%;
+    padding-left: 34.5%;
+    margin-left: 2.5%;
+    float: left;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: #72AB00;
+    font-size: 40px;
+    text-shadow: 2px 2px 3px rgb(73, 72, 76), 4px 4px 3px rgb(79, 76, 82);
+}
+
+.font_1 
+{
+    text-align: left;
+    font-family: monospace;
+    color: #72AB00;
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.font_3
+{
+    line-height: 0px;
+    font-size: 40px;
+    font-family: Helvetica bold;
+}
+
+.font_5
+{
+    font-weight: 100;
+    line-height: 18px;
+    font-size: 22px;
+}
+
+.font_7
+{
+    font-size: 22px;
+}
+
+.font_8
+{
+    clear: none;
+    font-size: 16px;
+    color: #494949;
+}
+
+.color_19 
+{
+    color: #72AB00;
+}
+
+.color_13 
+{
+    color: #9A9A9A;
+}
+
+#img
+{
+    margin-left: 0%;
+    margin-top: 0%;
+    width: 180%;
+    border: 2px solid #969696;
+}
+
+/*fieldset*/
+.fs1
+{
+    background-image: linear-gradient(to bottom, #9a9a9a57, #ffffff );
+    width: 132%;
+    border: 1px solid #9a9a9a
+}
+
+.fsimg
+{
+    transform: rotate(90deg);
+    clear: none;
+    float: left;
+    width: 40%;
+    margin-top: -20px;
+    margin-left: 25%;
+    border: 0px solid gray;
+}
+
+.fs2
+{
+    text-align: justify;
+    float: right;
+    clear: none;
+    width: 70%;
+    margin-top: 19%;
+    margin-right: 13%;
+    margin-bottom: 1%;
+    border: 0px solid gray;
+}
+
+#just
+{
+    text-align: justify;
+}
+
+#fsdep
+{
+    margin-left: 21%;
+    width: 90%;
+    border: aqua 0px solid;
+}
+
+#fscit
+{
+    width: 90%;
+    border: #9a9a9a 0px solid;
+    margin-left: 21%;
+}
+
+#fsexp
+{
+    width: 90%;
+    border: darkgreen 0px solid;
+    margin-left: 21%;
+}
+
+/*rodapé*/
+footer
+{
+    width: 140%;
+    border: 0px #9a9a9a solid;
+    clear: both;
+    text-align: center;
+    background-color: rgb(231, 231, 231);
+    font-size: 12px;
+    color: #696767;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+
+}
+
+@media screen and (min-width: 400px)
+{
+    .cabecalho
+    {
+    
+    border-bottom: #72ab00 2px solid;
+    background-color: rgb(0, 0, 0);
+    height: 150px;
+    width: 100%;
+    position: relative;
+    }
+    
+    nav
+    {
+        width: 30%;
+    }
+    
+    #menu
+    {
+        float: left;
+        margin-top: 15%;
+        margin-left: 48%;
+        text-align: right;
+        font-size: 13px;
+    }
+
+    #menu ul
+    {
+        width: 290px;
+        margin: 10px;
+    }
+
+    #menu ul li
+    {
+        padding: 10px;
+    }
+
+    #menu ul li a:hover
+    {
+        font-size: 13px;   
+    }
+
+
+    /*fontes*/
+    .font_0 
+    {
+        text-align: left;
+        padding-top: 20px;
+        padding-left: 30px;
+        margin-left: 10px;
+        font-size: 45px;
+    }
+
+    .font_1 
+    {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .font_3
+    {
+        line-height: 0px;
+        font-size: 50px;
+    }
+
+    .font_5
+    {
+        line-height: 18px;
+        font-size: 23px;
+        font-weight: 100;
+    }
+
+    .font_7
+    {
+        font-size: 22px;
+    }
+
+    .font_8
+    {
+        clear: none;
+        font-size: 18px;
+    }
+
+    .color_19 
+    {
+        color: #72AB00;
+    }
+
+    .color_13 
+    {
+        color: #9A9A9A;
+    }
+
+    /*fieldset*/
+    .fs1
+    {
+        width: 90%;
+    }
+
+    #img
+    {
+    margin-left: 30px;
+    margin-top: 40px;
+    width: 340px;
+    border: 2px solid #969696;
+    }
+
+    .fs1
+    {
+        margin: auto;
+    }
+    
+    .fsimg
+    {
+        float: left;
+        width: 30%;
+        margin-top: 4%;
+        margin-left: -4%;
+        border: gray solid 0px;
+    }
+
+    .fs2
+    {
+        padding-left: 1%;
+        float: left;
+        width: 40%;
+        margin-top: 0;
+        margin-right: 2%;
+        margin-bottom: 1%;
+        border: 0px solid gray;
+        margin-left: 0;
+    }
+
+    #fsdep
+    {
+        border-right: 0.5px solid #9a9a9a;
+        float: left;
+        width: 27%;
+        margin-left: 2.7%;
+    }
+
+    #fscit
+    {
+        border-right: solid 0.5px #9a9a9a;
+        float: left;
+        width: 27%;
+        margin-left: 1%;
+    }
+
+    #fsexp
+    {
+        float: left;
+        width: 27%;
+        margin-left: 1%;
+    }
+
+    /*rodapé*/
+    footer
+    {
+        width: 100%;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 800px)
+{
+    .cabecalho
+    {
+    
+    border-bottom: #72ab00 2px solid;
+    background-color: rgb(0, 0, 0);
+    height: 150px;
+    width: 100%;
+    position: relative;
+    }
+    
+    /*menu*/
+    #menu
+    {
+        float: left;
+        margin-left: 54%;
+        margin-top: 8.5%;
+        text-align: left;
+        font-family: Arial;
+        font-size: 15px;
+    }
+
+    #menu ul
+    {
+        width: 100%;
+        margin: 2.5%;
+    }
+
+    #menu ul li
+    {
+        display: inline;
+        list-style: none;
+        border-top: 1px solid rgba(154, 154, 154, 1);
+        padding: 3%;
+    }
+
+    #menu ul li a:hover
+    {
+        font-style: italic;
+        font-size: 16px;
+        text-shadow: 2px 2px 3px #72ab00;
+    }
+
+    a 
+    {
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    /*fontes*/
+    .font_0 
+    {
+        line-height: 25px;
+        padding-top: 1%;
+        padding-left: 3.5%;
+        margin-left: 16%;
+        float: left;
+        font-family: Helvetica;
+        font-weight: bold;
+        color: #72AB00;
+        font-size: 50px;
+        text-shadow: 2px 2px 3px rgb(73, 72, 76), 4px 4px 3px rgb(79, 76, 82);
+    }
+
+    .font_1 
+    {
+        text-align: left;
+        font-family: monospace;
+        color: #72AB00;
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    .font_3
+    {
+        line-height: 0px;
+        font-size: 70px;
+        font-family: Helvetica bold;
+    }
+
+    .font_5
+    {
+        line-height: 22px;
+        font-weight: 100;
+        font-size: 28px;
+    }
+
+    .font_7
+    {
+        font-size: 22px;
+    }
+
+    .font_8
+    {
+        clear: none;
+        font-size: 16px;
+        color: #494949;
+    }
+
+    .color_19 
+    {
+        color: #72AB00;
+    }
+
+    .color_13 
+    {
+        color: #9A9A9A;
+    }
+
+    /*fieldset*/
+    .fs1
+    {
+        background-image: linear-gradient(to bottom, #9a9a9a57, #ffffff );
+        width: 60%;
+        margin: auto;
+        border: 1px solid #9a9a9a
+    }
+
+    #img
+    {
+    margin-left: -6%;
+    margin-top: -19%;
+    width: 120%;
+    height: 100%;
+    border: 2px solid #969696;
+    }
+    
+    .fsimg
+    {
+        transform: rotate(90deg);
+        clear: none;
+        float: left;
+        width: 40%;
+        margin-top: 11%;
+        margin-left: 2%;
+        margin-bottom: 1%;
+        border: 0px solid gray;
+    }
+
+    .fs2
+    {
+        float: right;
+        text-align: justify;
+        clear: none;
+        width: 40%;
+        margin-top: 0px;
+        margin-right: 3.5%;
+        margin-bottom: 1%;
+        border: 0px solid gray;
+    }
+
+    #fsdep
+    {
+        float: left;
+        width: 18%;
+        border-right: #9a9a9a 0.5px solid;
+        border-bottom: #494949 0 solid;
+        border-top: #494949 0 solid;
+        border-left: #494949 0 solid;
+        margin-left: 19%;
+        text-align: justify;
+    }
+
+    #fscit
+    {
+        float: left;
+        width: 18%;
+        border-right: #9a9a9a 0.5px solid;
+        border-bottom: #494949 0 solid;
+        border-top: #494949 0 solid;
+        border-left: #494949 0 solid;
+        margin-left: 1%;
+        text-align: justify;
+    }
+
+    #fsexp
+    {
+        float: left;
+        width: 18%;
+        border: darkgreen 0px solid;
+        margin-left: 1%;
+        text-align: justify;
+    }
+
+    /*rodapé*/
+    footer
+    {
+        width: 100%;
+        vertical-align: text-top;
+        clear: both;
+        text-align: center;
+        background-color: rgb(231, 231, 231);
+        font-size: 15px;
+        color: #5a5a5a;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 100;
+
+    }
+}
